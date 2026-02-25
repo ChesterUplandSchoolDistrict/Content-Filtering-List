@@ -444,7 +444,8 @@ who.int
 wolterskluwer.com 
 worldbank.org 
 yourclassical.org 
-zinnedproject.org 
+zinnedproject.org
+tradingview.com
   
 #Livelsson domains to be allowed
 main.rest.global.prod.class.com 
