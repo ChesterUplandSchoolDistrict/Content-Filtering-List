@@ -747,8 +747,8 @@ sftp.rosters.app.amiralearning.com
 *.reports.prod.amira.cloud
 *.ws.prod.amira.cloud
 *.graphql.prod.amira.cloud
-*.*.amiralearning.com
-*.*.prod.amira.cloud
+*.amiralearning.com
+*.prod.amira.cloud
 *.boltdns.net
 players.brightcove.net
 metrics.brightcove.com
@@ -975,8 +975,8 @@ sftp.rosters.app.amiralearning.com
 *.reports.prod.amira.cloud
 *.ws.prod.amira.cloud
 *.graphql.prod.amira.cloud
-*.*.amiralearning.com
-*.*.prod.amira.cloud
+*.amiralearning.com
+*.prod.amira.cloud
 https://connection.nwea.org
 https://dpdol.nwea.org
 https://legal.nwea.org
