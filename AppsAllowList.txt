@@ -26,7 +26,7 @@ bea.gov
 billofrightsinstitute.org 
 blogs.scientificamerican.com 
 blogs.worldbank.org 
-bls.gov 
+bls.gov C:\Users\olfadahunsi\AppData\Local\Programs\Canva
 brainpop.com 
 brainpop.speedera.com 
 brainpop.speedera.net 
@@ -998,3 +998,16 @@ app.launchdarkly.com
 *.stripe.com
 m.stripe.com
 pyrope-a-imgservice.cricut.com
+
+#Gizmo - Explore Learning
+https://explorek12.com
+https://explorelearning.com
+https://www.explorelearning.com
+https://apps.explorelearning.com
+https://gizmos.explorelearning.com
+https://reflex.explorelearning.com
+https://help.explorelearning.com
+https://frax.explorelearning.com
+https://science4us.explorelearning.com
+https://connect.explorelearning.com
+https://el-gizmos.s3.amazonaws.com
