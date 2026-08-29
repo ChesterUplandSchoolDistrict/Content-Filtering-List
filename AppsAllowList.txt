@@ -1105,3 +1105,4 @@ d1rvg4h59z7jah.cloudfront.net
 download.autodesk.com
 *.akamaiedge.net
 s3.amazonaws.com
+tinkercad.com
