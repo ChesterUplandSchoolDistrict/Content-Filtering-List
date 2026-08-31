@@ -1106,3 +1106,14 @@ download.autodesk.com
 *.akamaiedge.net
 s3.amazonaws.com
 tinkercad.com
+
+
+#CodeHS
+*.codehs.com
+*.codehs.me
+*.codehs.io
+*.codehs.app
+*.codehs.xyz
+*.intercom.io
+scalinghub.codehs.com
+https://cdn.jsdelivr.net
