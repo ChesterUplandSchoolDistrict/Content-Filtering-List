@@ -1117,3 +1117,58 @@ tinkercad.com
 *.intercom.io
 scalinghub.codehs.com
 https://cdn.jsdelivr.net
+
+# iCEV Online - Firewall Allow List
+# Source: https://www.icevonline.com/system-requirements
+# Retrieved: 2026-09-11
+# Format: one domain/wildcard per line (protocol and trailing paths stripped for firewall rule use)
+
+*.icevonline.com
+*.kaltura.com
+*.learnosity.com
+*.jquery.com
+*.motovisuals.com
+www.googletagmanager.com
+www.google-analytics.com
+translate.google.com
+dw6y82u65ww8h.cloudfront.net
+cdnapisec.kaltura.com
+cdnsecakmi.kaltura.com
+analytics.kaltura.com
+cfvod.kaltura.com
+stats.kaltura.com
+cdnapi.kaltura.com
+klive.kaltura.com
+www.kaltura.com
+fstlive.kaltura.com
+ecdnmonitor.kaltura.com
+kalsegsec-a.akamaihd.net
+klive-a.akamaihd.net
+items.learnosity.com
+questions.learnosity.com
+assess.learnosity.com
+assets.learnosity.com
+reports.learnosity.com
+data.learnosity.com
+learnositymediaprocessed.s3.amazonaws.com
+s3.amazonaws.com
+ctecoding.com
+eduthings.com
+fonts.googleapis.com
+push.icevonline.com
+browser-intake-datadoghq.com
+icevonline.my.salesforce-scrt.com
+icevonline.my.site.com
+
+# Notes from source page:
+# - dw6y82u65ww8h.cloudfront.net: used for images in certification exams
+# - *.jquery.com, *.kaltura.com: video streaming
+# - *.learnosity.com: assessments
+# - s3.amazonaws.com entries (assets.learnosity.com and learnositymediaprocessed paths) were listed as
+#   s3.amazonaws.com/assets.learnosity.com and s3.amazonaws.com/learnositymediaprocessed on the source page.
+#   Firewalls generally filter by domain, not path, so both collapse to s3.amazonaws.com above.
+#   Path-level filtering (if your firewall supports it) can restrict to those specific prefixes.
+#
+# Reference docs:
+# Kaltura: https://knowledge.kaltura.com/help/what-are-the-network-and-firewall-white-list-requirements-and-explanations
+# Learnosity: https://help.learnosity.com/hc/en-us/articles/360000757877-Working-with-Firewalls-Domain-Whitelisting
