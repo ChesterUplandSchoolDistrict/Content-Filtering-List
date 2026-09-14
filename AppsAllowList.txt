@@ -1172,3 +1172,79 @@ icevonline.my.site.com
 # Reference docs:
 # Kaltura: https://knowledge.kaltura.com/help/what-are-the-network-and-firewall-white-list-requirements-and-explanations
 # Learnosity: https://help.learnosity.com/hc/en-us/articles/360000757877-Working-with-Firewalls-Domain-Whitelisting
+
+# NWEA (MAP Suite) - Firewall Allow List
+# Source: https://teach.mapnwea.org/impl/maphelp/Content/MAPSetup/Technology/SystemRequirements.htm
+# (Live "System Requirements" page referenced by the Summer 2026 technical requirements update;
+#  the connection.nwea.org news post itself is JS-rendered and could not be fetched directly.)
+# Retrieved: 2026-09-14
+# Format: one domain/wildcard per line, protocol prefixes and paths stripped for firewall rule use.
+# Entries with a specific port or path in the source are noted in comments.
+
+## All MAP Suite products
+*.mapnwea.org
+fonts.googleapis.com
+gstatic.com
+sso.mapnwea.org
+teach.mapnwea.org
+start.mapnwea.org
+auth.nwea.org
+*.browser-intake-datadoghq.com
+*.datadoghq-browser-agent.com
+newrelic.com
+support.hmhco.com
+
+## MAP Growth
+cdn.mapnwea.org
+cdn.jsdelivr.net
+item-presenter-lib.mapnwea.org
+test.mapnwea.org
+practice.mapnwea.org
+studentresources.nwea.org
+*.launchdarkly.com
+
+## Text-to-Speech accommodation tools (MAP Growth)
+*.texthelp.com
+*.speechstream.net
+
+## MAP Reading Fluency
+readingfluency.mapnwea.org
+readingfluency-cdn.mapnwea.org
+student.mapnwea.org
+lmapi.mapnwea.org
+www.google.com
+sentry.io
+api.getmagicbox.com
+googleapis.com
+www.google-analytics.com
+*.cloudfront.net
+
+## MAP Reading Fluency with Coach
+*.istation.com
+*.amiralearning.com
+*.prod.amira.cloud
+*.amazonaws.com
+istation.apm.us-east-2.aws.elastic-cloud.com
+www.amiratutor.com
+*.app.amiralearning.com
+*.amira.services
+sftp.rosters.app.amiralearning.com
+*.api.prod.amira.cloud
+*.authorization.prod.amira.cloud
+*.content.prod.amira.cloud
+*.core.prod.amira.cloud
+*.legacy.prod.amira.cloud
+*.reports.prod.amira.cloud
+*.ws.prod.amira.cloud
+*.graphql.prod.amira.cloud
+*.*.amiralearning.com
+*.*.prod.amira.cloud
+
+## Training, documentation, and analytics
+connection.nwea.org
+dpdol.nwea.org
+legal.nwea.org
+prolearning.nwea.org
+prolearningonline.nwea.org
+start.nwea.org
+www.surveygizmo.com
